@@ -1,0 +1,51 @@
+{
+  "generated": "2026-08-19",
+  "apps": {
+    "osce-countdown": {
+      "privacy-policy": {
+        "version": "1.0.0",
+        "effective": "1 August 2026",
+        "file": "osce-countdown/privacy-policy.md",
+        "sha256": "e59050011df61ea6b1c7d6e91e3b0620a3e73ad1e05b537f7fe7a8b288053a82",
+        "canonicalUrl": "https://delta60.com/apps/osce-countdown/privacy-policy"
+      },
+      "terms-of-service": {
+        "version": "1.0.0",
+        "effective": "1 August 2026",
+        "file": "osce-countdown/terms-of-service.md",
+        "sha256": "db43c365e79962e079ca67633eb5d569af986e4139e073477ccaaad0e0f11493",
+        "canonicalUrl": "https://delta60.com/apps/osce-countdown/terms-of-service"
+      },
+      "delete-data": {
+        "version": "1.0",
+        "effective": "1 August 2026",
+        "file": "osce-countdown/delete-data.md",
+        "sha256": "883fc4183bcd8812b91b65f2df1a266a3a2b607c09826d3e2981467074d15c35",
+        "canonicalUrl": "https://delta60.com/apps/osce-countdown/delete-data"
+      }
+    },
+    "learning-log": {
+      "privacy-policy": {
+        "version": "1.32",
+        "effective": "11 June 2026",
+        "file": "learning-log/privacy-policy.md",
+        "sha256": "f9d984714f90165495a89124e2f0ed90bef3e9fc6b136ea2ee083ae87f0ddfb6",
+        "canonicalUrl": "https://delta60.com/apps/learning-log/privacy-policy"
+      },
+      "terms-of-service": {
+        "version": "3.8",
+        "effective": "1 June 2026",
+        "file": "learning-log/terms-of-service.md",
+        "sha256": "919125401c62e7a4974180fa4aec2790e5b3ec0dae76c90e7032b4341e730077",
+        "canonicalUrl": "https://delta60.com/apps/learning-log/terms-of-service"
+      },
+      "delete-data": {
+        "version": "1.0",
+        "effective": "11 June 2026",
+        "file": "learning-log/delete-data.md",
+        "sha256": "cd2a5df641ae97a032be466507448e8a19a112a2d20dc22581dadf7d3e693e95",
+        "canonicalUrl": "https://delta60.com/apps/learning-log/delete-data"
+      }
+    }
+  }
+}
