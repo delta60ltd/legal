@@ -1,14 +1,12 @@
 # Delta 60 Ltd legal documents
 
 This is the canonical public record of the legal documents for apps published
-by Delta 60 Ltd (Company No. 17049123, registered in England and Wales):
-privacy policies, terms of service, and data deletion guidance.
+by Delta 60 Ltd (Company No. 17049123, registered in England and Wales). The
+privacy policies, terms of service, and data deletion guidance can be found here.
 
 The same documents are published, with their hashes, at
-[delta60.com](https://delta60.com), for example
-[delta60.com/apps/osce-countdown/privacy-policy](https://delta60.com/apps/osce-countdown/privacy-policy).
-This repository is the master copy: the website and the apps take their legal
-text from here, so every surface shows the same document.
+[delta60.com](https://delta60.com). This repository is the master copy, and the website and apps take their legal
+text from here. 
 
 ## Structure
 
