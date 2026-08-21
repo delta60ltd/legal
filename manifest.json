@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19",
+  "generated": "2026-08-21",
   "apps": {
     "osce-countdown": {
       "privacy-policy": {
@@ -26,24 +26,24 @@
     },
     "learning-log": {
       "privacy-policy": {
-        "version": "1.32",
-        "effective": "11 June 2026",
+        "version": "1.33",
+        "effective": "21 August 2026",
         "file": "learning-log/privacy-policy.md",
-        "sha256": "f9d984714f90165495a89124e2f0ed90bef3e9fc6b136ea2ee083ae87f0ddfb6",
+        "sha256": "2c701c7378ad286297b583a618a1b339dec6b5387af918d5e71455f6284f8961",
         "canonicalUrl": "https://delta60.com/apps/learning-log/privacy-policy"
       },
       "terms-of-service": {
-        "version": "3.8",
-        "effective": "1 June 2026",
+        "version": "3.9",
+        "effective": "21 August 2026",
         "file": "learning-log/terms-of-service.md",
-        "sha256": "919125401c62e7a4974180fa4aec2790e5b3ec0dae76c90e7032b4341e730077",
+        "sha256": "faf3ea9ee390189f002177d3f1afad987f866973334092986a519501bf74b131",
         "canonicalUrl": "https://delta60.com/apps/learning-log/terms-of-service"
       },
       "delete-data": {
-        "version": "1.0",
-        "effective": "11 June 2026",
+        "version": "1.1",
+        "effective": "21 August 2026",
         "file": "learning-log/delete-data.md",
-        "sha256": "cd2a5df641ae97a032be466507448e8a19a112a2d20dc22581dadf7d3e693e95",
+        "sha256": "f5f4006aefde3d6d7c389fd5f6e9896d064fe48b6233eb668561997662a1dda4",
         "canonicalUrl": "https://delta60.com/apps/learning-log/delete-data"
       }
     }

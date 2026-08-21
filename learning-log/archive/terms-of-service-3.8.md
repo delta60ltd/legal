@@ -116,7 +116,7 @@ You may stop using the App at any time and delete your account from the in-app S
 
 ## 13. Notices and Changes to These Terms
 
-We may update these Terms from time to time. Where the changes are material, we will give you reasonable notice through an in-app notification, or where appropriate by email to the address you registered with. The “Effective from” date at the top of these Terms tells you when the current version took effect. Continued use of the App after the effective date of an update constitutes acceptance of the updated Terms.
+We may update these Terms from time to time. Where the changes are material, we will give you reasonable notice through an in-app notification, or where appropriate by email to the address you registered with. The “Last updated” date at the top of these Terms tells you when they were last changed. Continued use of the App after the effective date of an update constitutes acceptance of the updated Terms.
 
 ## 14. Governing Law and Jurisdiction
 

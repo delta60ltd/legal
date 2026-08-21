@@ -1,4 +1,4 @@
-Learning Log is a mobile application and browser extension created and operated by Delta 60 Ltd (“we”, “us”). This policy explains how we collect, use, and protect your personal data when you use the Learning Log app or browser extension, when you visit our website at learninglog.app, and when you contact us through our company website at delta60.com.
+Learning Log is a mobile application and browser extension created and operated by Delta 60 Ltd (“we”, “us”). This policy explains how we collect, use, and protect your personal data when you use the Learning Log app or browser extension, and when you visit or submit information through our website at learninglog.app.
 
 ## 1. Who we are
 
@@ -60,13 +60,13 @@ If you opt in to push notifications, we store your notification preference and a
 
 If you report a problem or send feedback in the app, we store the text you submit, your account identifier, and, for bug reports, basic device, operating system, and app version information. We use this to investigate issues, improve the service, and protect against misuse of support channels.
 
-### Website and contact requests
+### Website forms, contact requests, and beta interest
 
-Our website (learninglog.app) is an information page for finding and downloading the app. It has no sign-up or contact forms and does not use cookies.
+Our website (learninglog.app) collects the information you submit through its forms. This may include your name, email address, mailing-list choices, beta tester interest, preferred beta platform, and any message you send through the contact form. Beta tester interest is operational rather than marketing: we use it to manage possible TestFlight or Play test track invitations. Contact form messages are sent to us by email so we can read and respond to your enquiry.
 
-If you contact us, you do so through the contact form on our company website (delta60.com) or by email. Through the contact form we collect your name, your email address, and the message you send. Contact form messages are sent to us by email so we can read and respond to your enquiry. If you have previously expressed interest in beta testing, we keep that information to manage possible TestFlight or Play test track invitations; it is operational rather than marketing.
+We do not use cookies on our website.
 
-The delta60.com contact form uses Cloudflare Turnstile, an invisible bot-protection check. When you open that page, Cloudflare receives your IP address, browser User-Agent header, a TLS fingerprint, and our site identifier so it can decide whether the traffic is automated. We do not see this information ourselves.
+Our website uses Cloudflare Turnstile, an invisible bot-protection check, on the pages that carry our sign-up and contact forms (our home page and our contact page). When you open one of those pages, Cloudflare receives your IP address, browser User-Agent header, a TLS fingerprint, and our site identifier so it can decide whether the traffic is automated. We do not see this information ourselves.
 
 ### Technical and diagnostic information
 
@@ -92,7 +92,7 @@ If you flag a news article from the news feed, we record the article's URL and t
 
 The AI providers we use require us to run safety controls on text we send to their models. To meet this requirement, we run automated moderation checks on AI inputs before they reach the model. If a check identifies text as potentially harmful or abusive, we may record the relevant submitted text or text excerpt, the categories matched, technical metadata, and your account identifier in a security log pending human review. If the moderation check is temporarily unavailable and we cannot complete it, we may record the relevant submitted text or text excerpt, technical metadata, and your account identifier so that content which bypassed the check remains reviewable. We do not routinely review AI content unless it has been flagged by our moderation systems, has been the subject of a user-submitted content report, is needed for security, abuse prevention, or legal compliance, or you have asked us to look at specific content as part of a support request.
 
-Our browser extension uses your Learning Log account and the same data described above. When you click the extension button, it reads the address and title of the active tab so you can save the page as a favourite or start a reading log from it. It stores your sign-in session locally in your browser; favourites you save through the extension are stored in your Learning Log account, the same as favourites saved in the app. We do not collect anything from the extension beyond what is listed above; in particular, we do not collect browsing history beyond the webpages you explicitly choose to save or process through the extension.
+Our browser extension uses your Learning Log account and the same data described above. When you click the extension button, it reads the address of the active tab so you can save the page as a favourite or start a reading log from it. It stores your favourites and sign-in session locally in your browser. We do not collect anything from the extension beyond what is listed above; in particular, we do not collect browsing history beyond the webpages you explicitly choose to save or process through the extension.
 
 To show the small site icon next to each saved favourite, the extension loads that icon from DuckDuckGo's favicon service (icons.duckduckgo.com). This sends the website's domain to DuckDuckGo, along with your device's IP address (as with any web request). It does not send your name, email, or account identifier. DuckDuckGo is not one of our processors and we have no data-processing agreement with it (none is required); it receives the request as an independent service and states that the service is anonymous and does not build a browsing history. See DuckDuckGo's How DuckDuckGo Keeps Favicons Anonymous page for details.
 
@@ -146,7 +146,7 @@ We use the following processors and service providers to run the service. They p
 
 - **OpenAI:** speech-to-text transcription and content-moderation checks. Audio and text are processed to provide transcription and safety checks. We configure provider settings and contracts, where available, to restrict use of submitted content to providing the service and maintaining safety.
 
-- **OpenRouter:** a routing service that forwards text-AI requests to underlying model providers (currently Google models). Used for text refinement, title generation, voice-entry structuring, and inline dictation cleanup.
+- **OpenRouter:** a routing service that forwards text-AI requests to underlying model providers (currently including OpenAI and Google models). Used for text refinement, title generation, voice-entry structuring, and inline dictation cleanup.
 
 - **Mailgun:** sending transactional, support, beta interest, and marketing emails on our behalf.
 
@@ -160,9 +160,9 @@ We use the following processors and service providers to run the service. They p
 
 - **Sentry:** automated crash and error reporting. Hosted in the European Union (Frankfurt, Germany).
 
-- **Vercel:** hosting our websites, learninglog.app and delta60.com (including its contact form).
+- **Vercel:** hosting the learninglog.app website and website forms.
 
-- **Cloudflare:** invisible bot-protection (Turnstile) on the contact form on our company website (delta60.com). Cloudflare processes your IP address, User-Agent header, TLS fingerprint, and our site identifier as our processor for this purpose. Cloudflare may also retain anonymised signals under its own legitimate interest to improve Turnstile's bot-detection capabilities. See Cloudflare's Turnstile Privacy Addendum for full details of what Cloudflare collects and how it is used.
+- **Cloudflare:** invisible bot-protection (Turnstile) on the pages that carry our sign-up and contact forms. Cloudflare processes your IP address, User-Agent header, TLS fingerprint, and our site identifier as our processor for this purpose. Cloudflare may also retain anonymised signals under its own legitimate interest to improve Turnstile's bot-detection capabilities. See Cloudflare's Turnstile Privacy Addendum for full details of what Cloudflare collects and how it is used.
 
 Where available, we configure AI providers not to use submitted content for training their general-purpose models.
 
@@ -208,7 +208,7 @@ Some of our processors (notably our AI providers and our website host) are based
 
 - **News article reports:** kept for up to 12 months and then deleted, as described in section 6.
 
-- **Bug reports and support feedback:** bug reports may be kept for up to 12 months after account deletion in anonymised form where needed for support operations, fraud investigation, and abuse prevention. General suggestions and feedback are kept while your account is active and deleted when your account is deleted, unless copied into aggregated, non-identifying product planning notes.
+- **Bug reports and support feedback: ** bug reports may be kept for up to 12 months after account deletion in anonymised form where needed for support operations, fraud investigation, and abuse prevention. General suggestions and feedback are kept while your account is active and deleted when your account is deleted, unless copied into aggregated, non-identifying product planning notes.
 
 - **Push notification tokens:** kept while you are opted in and the token remains valid. If you turn notifications off or the platform tells us the token is no longer valid, we delete or clear the token. Push broadcast and delivery records are kept for operational audit and troubleshooting for up to 12 months.
 
@@ -222,7 +222,7 @@ Some of our processors (notably our AI providers and our website host) are based
 
 - **Beta tester interest:** kept while we are managing the beta programme and related invitations, unless you ask us to delete it sooner or we need to retain a limited record for abuse prevention or operational audit.
 
-- **Inactive accounts:** if you are approaching 12 months without using the app (no logs, favourites, or token use) and have no remaining tokens, we will email you to ask whether you want to keep the account. If you do not respond and remain inactive, we may delete the account and its data. You can prevent this by signing back in, creating any log or favourite, or replying to the warning email.
+- **Inactive accounts:** if you have not used the app for 12 months (no logs, favourites, or token use) and have no remaining tokens, we will email you to ask whether you want to keep the account. If you do not respond and remain inactive, we may delete the account and its data. You can prevent this by signing back in, creating any log or favourite, or replying to the warning email.
 
 - **After you delete your account:** your profile, learning content, favourites, generated outputs, and ordinary personal information are deleted. Limited financial records, AI usage records, content reports, bug reports, and transcription rejection records may be retained in anonymised form for the periods described above. Security audit logs may retain an internal account identifier where needed to evidence account deletion, investigate abuse or fraud, or comply with legal obligations. We also keep the limited professional-registration-verification record described above, to prevent repeated sign-ups that abuse our free token allowance.
 
@@ -248,9 +248,9 @@ Under UK GDPR you have the right to:
 
 - Not be subject to decisions based solely on automated processing that produce legal or similarly significant effects on you.
 
-- Complain to the UK Information Commissioner's Office (ico.org.uk).
+- Complain to the UK Information Commissioner's Office ( ico.org.uk).
 
-To exercise any of these rights, use our contact form on delta60.com or email hello@delta60.com. We will respond within one month.
+To exercise any of these rights, use our contact form and pick Privacy or data request, or email hello@delta60.com. We will respond within one month.
 
 ## 10. Children
 
@@ -266,7 +266,7 @@ We use industry-standard technical and organisational security measures designed
 
 ## 12. Changes to this policy
 
-We may update this policy from time to time. The “Effective from” date at the top tells you when the current version of this policy took effect. Material changes will be communicated by email, in-app notice, or another appropriate method.
+We may update this policy from time to time. The “Last updated” date at the top tells you when it was last updated and published. Material changes will be communicated by email, in-app notice, or another appropriate method.
 
 ## 13. Contact
 

@@ -2,7 +2,7 @@ How to close your Learning Log account, or remove specific data, and what happen
 
 Learning Log account deletion can be requested either through the app or by contacting Learning Log support. The in-app process is the standard route for users who can still sign in, as it allows the request to be authenticated directly from the account.
 
-Email support is available if you cannot access the app, no longer have it installed, or want to request deletion of a specific category of data. Account deletion is permanent, so export any records you wish to keep from **Settings → Download my data** first.
+Email support is available if you cannot access the app, no longer have it installed, or want to request deletion of a specific category of data. Account deletion is permanent, so export any records you wish to keep from **Settings → Data & export**.
 
 - 1. Account deletion
 
@@ -16,13 +16,13 @@ To close your Learning Log account and remove the associated account data, submi
 
 - Go to **Settings**.
 
-- Under **Data & Privacy**, tap **Delete account**.
+- Tap **Account**, then **Delete account**.
 
 - Confirm the tickbox and tap **Delete**. The account deletion process will begin immediately.
 
 ## Request deletion if you cannot use the in-app process
 
-If you cannot sign in or no longer have the app installed, you have two options. Use the contact form on our company website (delta60.com), or email hello@delta60.com (the app developer) from the email address registered to your Learning Log account, using the subject Delete my Learning Log account. If you are writing from an address that does not match an active account, we may need to verify your identity and ownership of the account before we can process the request. We aim to respond within five working days.
+If you cannot sign in or no longer have the app installed, you have two options. Use our contact form and pick Privacy or data request, or email hello@delta60.com (the app developer) from the email address registered to your Learning Log account, using the subject Delete my Learning Log account. If you are writing from an address that does not match an active account, we may need to verify your identity and ownership of the account before we can process the request. We aim to respond within five working days.
 
 ## 2. Specific data deletion
 
@@ -30,13 +30,11 @@ Closing the account is not required if you only want to remove individual record
 
 - Reading logs, event records, favourites, and saved links can be deleted individually from the relevant screen.
 
-- Whole categories of data can be removed in one step from **Settings → Delete my data**.
-
-- Marketing preferences (Learning Log marketing list, Learning Log beta list) can be turned off in **Settings → Notifications & email**.
+- Marketing preferences (Learning Log marketing list, Learning Log beta list) can be turned off in **Settings → Marketing preferences**.
 
 - Profile fields can be cleared in **Settings → Profile**.
 
-To request removal of a specific item or category of data, use the contact form on our company website (delta60.com), or email hello@delta60.com (the app developer) from the address registered to your account and describe what you want removed.
+To request removal of a specific item or category of data, use our contact form and pick Privacy or data request, or email hello@delta60.com (the app developer) from the address registered to your account and describe what you want removed.
 
 ## Data removed on account deletion
 
@@ -56,15 +54,15 @@ When an account is deleted, the following information is permanently removed and
 
 ## Records retained after deletion
 
-A limited set of operational, financial, and safety records may be retained after account deletion where there is a legal or legitimate reason to do so. Where possible, the account identifier is replaced with an anonymised marker so the records are no longer linked to an active account. Each category is kept only for its retention period, then automatically purged:
+A limited set of operational, financial, and safety records may be retained after account deletion where there is a legal or legitimate reason to do so. Where possible, the account identifier is replaced with an anonymised marker so the records are no longer linked to an active account. These records are kept for up to 12 months and then automatically purged:
 
-- Financial records (token purchases and balance changes), kept in anonymised form for at least 6 years and normally up to 7 years to meet UK tax and accounting obligations.
+- Financial records (token purchases and balance changes), kept for tax and accounting.
 
-- AI usage records (model name, cost, token counts), kept for up to 24 months for cost monitoring and abuse prevention.
+- AI usage records (model name, cost, token counts), kept for cost monitoring and abuse prevention.
 
-- Content reports and transcription rejection records, kept for up to 12 months for safety analytics.
+- Content reports and transcription rejection records, kept for safety analytics.
 
-- Bug reports you submitted, kept for up to 12 months for support operations.
+- Bug reports you submitted, kept for support operations.
 
 Security audit logs may retain an internal account identifier where this is necessary to evidence the deletion itself, investigate abuse or fraud, or comply with a legal obligation.
 
