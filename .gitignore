@@ -1,0 +1,3 @@
+# Local workflow state for scripts/policy-set.mjs in the websites workspace:
+# a sidecar per document marking an edit as intended. Never published.
+*.md.edited
