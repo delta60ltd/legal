@@ -2,10 +2,7 @@
 
 This is the canonical public record of the legal documents for apps published
 by Delta 60 Ltd (Company No. 17049123, registered in England and Wales). The
-privacy policies and terms of service can be found here. Data deletion
-instructions are practical guidance rather than legal documents, so they are
-published only on each app's Delete My Data page at
-[delta60.com](https://delta60.com).
+privacy policies and terms of service can be found here.
 
 The same documents are published, with their hashes, at
 [delta60.com](https://delta60.com). This repository is the master copy, and the website and apps take their legal
