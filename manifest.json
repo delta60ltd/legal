@@ -15,13 +15,6 @@
         "file": "osce-countdown/terms-of-service.md",
         "sha256": "db43c365e79962e079ca67633eb5d569af986e4139e073477ccaaad0e0f11493",
         "canonicalUrl": "https://delta60.com/apps/osce-countdown/terms-of-service"
-      },
-      "delete-data": {
-        "version": "1.0",
-        "effective": "1 August 2026",
-        "file": "osce-countdown/delete-data.md",
-        "sha256": "883fc4183bcd8812b91b65f2df1a266a3a2b607c09826d3e2981467074d15c35",
-        "canonicalUrl": "https://delta60.com/apps/osce-countdown/delete-data"
       }
     },
     "learning-log": {
@@ -38,13 +31,6 @@
         "file": "learning-log/terms-of-service.md",
         "sha256": "faf3ea9ee390189f002177d3f1afad987f866973334092986a519501bf74b131",
         "canonicalUrl": "https://delta60.com/apps/learning-log/terms-of-service"
-      },
-      "delete-data": {
-        "version": "1.1",
-        "effective": "21 August 2026",
-        "file": "learning-log/delete-data.md",
-        "sha256": "f5f4006aefde3d6d7c389fd5f6e9896d064fe48b6233eb668561997662a1dda4",
-        "canonicalUrl": "https://delta60.com/apps/learning-log/delete-data"
       }
     }
   }
