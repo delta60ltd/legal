@@ -32,9 +32,7 @@ Learning Log is intended for reflective learning and professional development. Y
 
 ### Voice recordings
 
-When you use voice entry or inline dictation, the app records audio through your device microphone, with your permission, and converts it to text using the speech recognition built into your device. The audio never leaves your device, is not sent to us, and is not sent to any third party. We do not receive or store your recordings. The microphone is only active while you are recording.
-
-Once the audio has been turned into text on your device, that text is sent to our servers so it can be tidied up and sorted into the right fields, as described under AI features below. Your device’s own speech recognition is provided by Apple or Google as part of your operating system and is governed by their privacy terms, not ours.
+When you use voice entry or inline dictation, the app records audio through your device microphone, with your permission. The audio is sent to our transcription provider, converted to text, and then discarded. We do not retain the audio after transcription, and our agreement with the provider restricts their use of audio to delivering the transcription. The microphone is only active while you are recording.
 
 ### Location for Jobs
 
@@ -45,6 +43,10 @@ The map in the Jobs feature is rendered using MapTiler (api.maptiler.com), which
 ### Camera
 
 When you tap a QR or barcode scan button (for example, to add an article, ISBN, or DOI), the app opens the camera to read the code. The camera is only active while the scanner is open. We do not store or transmit camera images; only the decoded code is used by the app. We always ask for your permission before any access to your camera.
+
+### Purchase records
+
+If you buy tokens, we store the transaction amount, date, product identifier, token amount, expiry date, and the app store through which the transaction took place. We never see your card details, because payments are handled by the App Store or Google Play directly.
 
 ### Marketing preferences
 
@@ -76,11 +78,11 @@ When the app or one of our server-side functions hits an unexpected error, an au
 
 ### AI and transcription diagnostics
 
-We record operational metadata about AI and transcription features, including the function used, model, model usage units, audio duration, approximate internal cost, error type, and request identifiers. If a transcription is rejected by an anti-hallucination or safety gate, we may store a short transcript snippet and related confidence or safety metadata so we can tune the system and investigate failures. If an AI provider returns an unexpected error or malformed response, we may store a short response snippet for diagnostic purposes.
+We record operational metadata about AI and transcription features, including the function used, model, token counts, audio duration, approximate internal cost, error type, and request identifiers. If a transcription is rejected by an anti-hallucination or safety gate, we may store a short transcript snippet and related confidence or safety metadata so we can tune the system and investigate failures. If an AI provider returns an unexpected error or malformed response, we may store a short response snippet for diagnostic purposes.
 
 ### AI content reports
 
-If you flag AI-generated content as wrong, unhelpful, offensive, or otherwise inappropriate, we record the AI's output, the input that produced it (including any voice transcript), the category you selected, any note you add, and operational metadata about the AI calls involved (model, model usage units, audio duration, our internal cost). This is described in more detail in section 6.
+If you flag AI-generated content as wrong, unhelpful, offensive, or otherwise inappropriate, we record the AI's output, the input that produced it (including any voice transcript), the category you selected, any note you add, and operational metadata about the AI calls involved (model, token counts, audio duration, our internal cost). This is described in more detail in section 6.
 
 ### News article reports
 
@@ -101,6 +103,8 @@ To show the small site icon next to each saved favourite, the extension loads th
 - To store and manage your learning logs, event logs, favourites, generated outputs, and appraisal exports.
 
 - To process voice entries through our AI transcription and structuring services.
+
+- To process purchases and manage your token balance.
 
 - To send transactional emails (account, password, email change, deletion, and operational emails).
 
@@ -124,13 +128,13 @@ To show the small site icon next to each saved favourite, the extension loads th
 
 We process your personal data on the following lawful bases.
 
-**Contract (Article 6(1)(b) UK GDPR):** Creating a Learning Log account forms a contract between you and us to deliver the service. We process your account details, learning content, generated outputs, voice transcripts, and AI-assisted text actions on this basis because the app would not work without them.
+**Contract (Article 6(1)(b) UK GDPR):** Creating a Learning Log account forms a contract between you and us to deliver the service. We process your account details, learning content, generated outputs, voice transcription, AI-assisted text actions, token balance, and purchase records on this basis because the app would not work without them.
 
 **Consent (Article 6(1)(a) UK GDPR):** We rely on consent for marketing emails and optional beta tester contact where applicable. You can withdraw marketing consent at any time in the app, through unsubscribe links, or by emailing us. Device permissions such as microphone, camera, location, and notifications are also under your control through the app and your device settings; turning them off stops the relevant feature from using that permission.
 
-**Legitimate interests (Article 6(1)(f) UK GDPR):** We rely on this for activities where we have a justified business reason that does not override your rights. This includes keeping the app secure, running automated safety checks on AI inputs, diagnosing crashes and AI failures, investigating bug reports and support requests, preventing fraud and abuse, managing rate limits, improving our products using aggregated or minimised data, and keeping limited audit records. Our legitimate interests for these activities include verifying that users hold the professional registration they claim, enforcing our Terms of Service (including the one-account-per-person limit), and preventing abuse of the service. You can object to processing based on legitimate interests.
+**Legitimate interests (Article 6(1)(f) UK GDPR):** We rely on this for activities where we have a justified business reason that does not override your rights. This includes keeping the app secure, running automated safety checks on AI inputs, diagnosing crashes and AI failures, investigating bug reports and support requests, preventing fraud and abuse, managing rate limits, improving our products using aggregated or minimised data, and keeping limited audit records. Our legitimate interests for these activities include verifying that users hold the professional registration they claim, enforcing our Terms of Service (including the one-account-per-person limit), and preventing abuse of the token model. You can object to processing based on legitimate interests.
 
-**Legal obligation (Article 6(1)(c) UK GDPR):** We keep certain records because UK law requires us to. Learning Log is free and we take no payment from you, so this applies principally to historic accounting records from the period when the app offered in-app purchases, and to any request we must answer under data protection or other law.
+**Legal obligation (Article 6(1)(c) UK GDPR):** We keep certain records because UK law requires us to, principally financial and accounting records connected with purchases, refunds, and tax reporting.
 
 **Special category data:** Learning Log is not designed to hold identifiable patient records, and you should not enter directly identifiable patient information. The app is intended for professional learning reflections written in anonymised or non-identifying form. If we become aware that content may contain directly identifiable patient information, we may ask you to remove it, restrict processing of it, or delete it where appropriate.
 
@@ -140,13 +144,15 @@ We use the following processors and service providers to run the service. They p
 
 - **Supabase:** secure hosting of your account, learning logs, generated outputs, and other app data.
 
-- **OpenAI:** automated content-moderation checks on text. Text you submit to an AI feature is checked for unsafe content before and after processing. We configure provider settings and contracts, where available, to restrict use of submitted content to providing the service and maintaining safety. OpenAI does not receive any audio.
+- **OpenAI:** speech-to-text transcription and content-moderation checks. Audio and text are processed to provide transcription and safety checks. We configure provider settings and contracts, where available, to restrict use of submitted content to providing the service and maintaining safety.
 
 - **OpenRouter:** a routing service that forwards text-AI requests to underlying model providers (currently Google models). Used for text refinement, title generation, voice-entry structuring, and inline dictation cleanup.
 
 - **Mailgun:** sending transactional, support, beta interest, and marketing emails on our behalf.
 
-- **Apple and Google:** app distribution, sign-in where selected, and the on-device speech recognition built into your operating system.
+- **RevenueCat:** managing in-app purchase records.
+
+- **Apple and Google:** app distribution, sign-in where selected, and payment processing.
 
 - **Google Workspace:** hosting and processing our optional, anonymous feedback and exit surveys and the responses they collect (using tools such as Google Forms, Sheets, and Docs). These surveys do not ask for your name, email address, or anything else that identifies you.
 
@@ -174,7 +180,7 @@ If AI-generated content in the app appears wrong, unhelpful, offensive, or other
 
 - Your account identifier, so we can follow up if needed.
 
-- For AI reports, operational metadata about the AI calls involved (the model used, model usage units, audio duration where applicable, and our internal cost).
+- For AI reports, operational metadata about the AI calls involved (the model used, token counts, audio duration where applicable, and our internal cost).
 
 We use these reports to review what our AI and news feed are producing and to improve our prompts, moderation systems, news sourcing, and AI-assisted features. Reports are kept for up to 12 months and then deleted automatically. If you delete your account, your reports are anonymised so they remain useful for moderation analytics but are no longer attributable to you by ordinary account lookup. If you ask us to delete a report before then, we will do so unless we need to keep it for security, fraud prevention, legal compliance, or to handle an active support issue.
 
@@ -194,9 +200,9 @@ Some of our processors (notably our AI providers and our website host) are based
 
 - **Favourites:** kept while your account is active. Deleted when you delete your account.
 
-- **Voice recordings:** never leave your device and are never received by us.
+- **Voice recordings:** not intentionally retained after transcription completes.
 
-- **Transcription result cache:** when you use a voice or dictation feature, the resulting transcribed and AI-processed text is held in a temporary cache for up to 72 hours. This lets the app safely repeat a request interrupted by a lost connection without processing the same text twice. These cached results are deleted automatically after 72 hours, and immediately when you delete your account.
+- **Transcription result cache:** when you use a voice or dictation feature, the resulting transcribed and AI-processed text is held in a temporary cache for up to 72 hours. This lets the app safely repeat a request interrupted by a lost connection without re-processing your recording or charging your tokens twice. These cached results are deleted automatically after 72 hours, and immediately when you delete your account.
 
 - **AI content reports:** kept for up to 12 months and then deleted, as described in section 6.
 
@@ -208,17 +214,17 @@ Some of our processors (notably our AI providers and our website host) are based
 
 - **AI and transcription diagnostics:** AI failure diagnostics and transcription rejection records are kept for up to 12 months from creation, and AI usage metadata for up to 24 months from creation, after which they are deleted automatically. We keep them for operational monitoring, cost accounting, safety tuning, and abuse prevention. Where these records are retained after account deletion, your account identifier is replaced with an anonymous marker, except for security audit logs where retaining an internal account identifier is necessary for audit, abuse prevention, or legal compliance.
 
-- **Limited financial records:** the app no longer offers any purchase, so no new financial records are created. Historic purchase, refund, and related ledger records from the period when it did are retained in anonymised form for at least 6 years and normally up to 7 years, unless a longer period is legally required, to meet UK tax and accounting obligations.
+- **Limited financial records:** purchases, refunds, and related token ledger records are retained in anonymised form for at least 6 years and normally up to 7 years, unless a longer period is legally required, to meet UK tax and accounting obligations.
 
-- **Professional registration records:** to prevent fraud and abuse of the service and of our one-account-per-person policy, we keep a limited record of the professional registration numbers that have been used with the service, together with the regulator and the outcome of any verification check. We keep this record, which is not linked to your learning content, including after an account is deleted, for as long as needed for fraud and abuse prevention.
+- **Professional registration records:** to prevent fraud and abuse of our free token allowance and our one-account-per-person policy, we keep a limited record of the professional registration numbers that have been used with the service, together with the regulator and the outcome of any verification check. We keep this record, which is not linked to your learning content, including after an account is deleted, for as long as needed for fraud and abuse prevention.
 
 - **Marketing lists:** kept until you unsubscribe or ask us to delete them. Learning Log account deletion removes you from Learning Log marketing and beta lists, but does not automatically remove you from Delta 60 cross-product marketing because that is a separate consent. You can leave Delta 60 marketing through the unsubscribe link in any Delta 60 marketing email or by contacting us.
 
 - **Beta tester interest:** kept while we are managing the beta programme and related invitations, unless you ask us to delete it sooner or we need to retain a limited record for abuse prevention or operational audit.
 
-- **Inactive accounts:** if you are approaching 12 months without using the app (no logs, favourites, or other activity), we will email you to ask whether you want to keep the account. If you do not respond and remain inactive, we may delete the account and its data. You can prevent this by signing back in, creating any log or favourite, or replying to the warning email.
+- **Inactive accounts:** if you are approaching 12 months without using the app (no logs, favourites, or token use) and have no remaining tokens, we will email you to ask whether you want to keep the account. If you do not respond and remain inactive, we may delete the account and its data. You can prevent this by signing back in, creating any log or favourite, or replying to the warning email.
 
-- **After you delete your account:** your profile, learning content, favourites, generated outputs, and ordinary personal information are deleted. Limited financial records, AI usage records, content reports, bug reports, and transcription rejection records may be retained in anonymised form for the periods described above. Security audit logs may retain an internal account identifier where needed to evidence account deletion, investigate abuse or fraud, or comply with legal obligations. We also keep the limited professional-registration-verification record described above, to prevent repeated sign-ups that abuse the service.
+- **After you delete your account:** your profile, learning content, favourites, generated outputs, and ordinary personal information are deleted. Limited financial records, AI usage records, content reports, bug reports, and transcription rejection records may be retained in anonymised form for the periods described above. Security audit logs may retain an internal account identifier where needed to evidence account deletion, investigate abuse or fraud, or comply with legal obligations. We also keep the limited professional-registration-verification record described above, to prevent repeated sign-ups that abuse our free token allowance.
 
 - **Backups:** deleted data may remain in encrypted backups for a limited period before automatic removal. Backups are restricted to disaster recovery and are not used for any other purpose.
 

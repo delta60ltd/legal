@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21",
+  "generated": "2026-09-11",
   "apps": {
     "osce-countdown": {
       "privacy-policy": {
@@ -19,17 +19,17 @@
     },
     "learning-log": {
       "privacy-policy": {
-        "version": "1.33",
-        "effective": "21 August 2026",
+        "version": "2.0",
+        "effective": "11 September 2026",
         "file": "learning-log/privacy-policy.md",
-        "sha256": "2c701c7378ad286297b583a618a1b339dec6b5387af918d5e71455f6284f8961",
+        "sha256": "7663b989f08d710f80dee73ae5c6fe8613e9ce54bd8d3fd88d4e99dc200fba69",
         "canonicalUrl": "https://delta60.com/apps/learning-log/privacy-policy"
       },
       "terms-of-service": {
-        "version": "3.9",
-        "effective": "21 August 2026",
+        "version": "4.0",
+        "effective": "11 September 2026",
         "file": "learning-log/terms-of-service.md",
-        "sha256": "faf3ea9ee390189f002177d3f1afad987f866973334092986a519501bf74b131",
+        "sha256": "9cee3e93d5e2a5470fb26f8798e5b893a189888d6240d07efd098721f454a174",
         "canonicalUrl": "https://delta60.com/apps/learning-log/terms-of-service"
       }
     }

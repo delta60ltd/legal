@@ -6,13 +6,13 @@ By downloading, installing, or using the App you agree to these Terms and to our
 
 ## 2. Description of Service
 
-Learning Log is a mobile and web browser application designed to help healthcare professionals record, organise, and reflect on their continuing professional development (CPD) activities. It provides tools for logging reading, events, and other learning activities, with optional AI-assisted features. The App is free to download and free to use, and it contains no purchases. The App is not medical advice and is not a substitute for clinical judgement, professional guidance, or any regulatory or employer requirement that applies to you.
+Learning Log is a mobile and web browser application designed to help healthcare professionals record, organise, and reflect on their continuing professional development (CPD) activities. It provides tools for logging reading, events, and other learning activities, with optional AI-assisted features. The App is not medical advice and is not a substitute for clinical judgement, professional guidance, or any regulatory or employer requirement that applies to you.
 
 ## 3. Account Registration
 
 You must create an account to use Learning Log. You are responsible for maintaining the confidentiality of your login credentials and for all activities that occur under your account. You must provide accurate and complete information when creating your account, and you must be at least 18 years old.
 
-You may hold only one Learning Log account. Creating additional accounts to work around a suspension or to evade limits set out in these Terms is a breach of these Terms and may result in suspension or termination of all of your accounts.
+You may hold only one Learning Log account. Creating additional accounts to obtain repeat welcome bonuses, work around a suspension, or evade limits set out in these Terms is a breach of these Terms and may result in suspension or termination of all of your accounts.
 
 Where you provide a professional registration body and registration number, you confirm that the registration is yours and that it is current. We may check the details you provide against the relevant public register and may suspend or close accounts where the details cannot be verified or do not match.
 
@@ -30,7 +30,7 @@ You agree to use Learning Log only for its intended purpose of recording profess
 
 - Reverse engineer, decompile, or disassemble the App, except to the extent permitted by law.
 
-- Use the App by automated means, scripts, scrapers, or in any way designed to circumvent its rate limits or access controls.
+- Use the App by automated means, scripts, scrapers, or in any way designed to circumvent its rate limits, token model, or access controls.
 
 - Save links to content that is illegal or that you do not have the right to access.
 
@@ -62,23 +62,33 @@ You are solely responsible for the accuracy and appropriateness of your CPD reco
 
 The App also shows automatically generated summaries of third-party news articles. These summaries may be incomplete or inaccurate and are provided for convenience only. You should read the full article on the publisher's website before relying on it.
 
-## 8. Cost and Fair Use
+## 8. Tokens & In-App Purchases
 
-Learning Log is free. There is no subscription, there are no in-app purchases, and no feature of the App requires payment. Voice entry, dictation, and the AI-assisted text features are included at no cost.
+Learning Log uses a pay-per-use token model for its AI-powered features. Tokens are purchased in packs through the Apple App Store or Google Play Store. The following terms apply, in addition to the terms imposed by your chosen store.
 
-**Earlier versions:** Versions of the App released before version 1.3.0 included a paid token model, under which AI and voice features were bought in packs through the Apple App Store or Google Play Store. That model has been withdrawn. No further tokens can be bought. If you are still using an older version, any tokens remaining on your account continue to work in that version until you update, and updating to the current version makes those features free.
+**What tokens cover:** Voice transcription (voice entry, inline dictation, voice entry favourites) costs one token per second of audio (rounded up to the nearest whole token). AI text actions, such as refining text or generating titles, cost one token per use.
 
-**Your statutory rights:** Nothing in these Terms affects your statutory rights as a consumer, including any rights you have under the Consumer Rights Act 2015 or the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.
+**Expiry:** Each token pack expires twelve months from the date of purchase. Topping up does not extend the expiry of older packs. Every purchase has its own independent expiry, and any unused tokens in a pack at the moment it expires are forfeited.
 
-**Fair use:** AI and voice features are subject to a fair use policy designed to prevent automated, scripted, or abusive use. Normal day-to-day use should never trigger any of these limits. We may apply reasonable rate limits, and may suspend access to a feature where use appears automated or abusive.
+**Order of use:** When you spend tokens, the App deducts from the pack closest to expiring first, so your newer purchases retain their full window.
+
+**Promotional and bonus tokens:** We may from time to time grant tokens free of charge (for example, a welcome bonus or as part of a promotion). Bonus tokens have no cash value, are non-transferable, are non-refundable, and expire on the same basis as purchased packs. We may vary or withdraw any such offer at our discretion.
+
+**Billing and card statements:** Payments for tokens are processed by the app store, not by us directly. Charges appear on your bank or card statement as Google*DELTA60 for purchases made through Google Play, or as APPLE.COM/BILL for purchases made through the Apple App Store. Refunds are handled by the relevant app store. If you do not recognise a charge, contact us before disputing it with your bank.
+
+**Refunds:** Refunds for in-app purchases are handled directly by Apple or Google through your account on the App Store or Play Store. Once a refund is processed there, your token balance updates automatically, and any tokens that were still unused at the time of the refund are removed from your balance.
+
+**Your statutory rights:** Nothing in these Terms affects your statutory rights as a consumer, including any rights you have under the Consumer Rights Act 2015 (which gives you remedies if digital content is not of satisfactory quality, fit for purpose, or as described) or the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013.
+
+**Fair use:** AI features are subject to a fair use policy designed to prevent automated, scripted, or abusive use. Normal day-to-day use should never trigger any of these limits.
 
 ## 9. Availability, Changes, and Discontinuation
 
 We strive to keep Learning Log available at all times but do not guarantee uninterrupted access. We may release updates that change functionality, fix bugs, or add features. Some updates may be required to continue using the App.
 
-We may also change, add, or remove features, or change the way the App works, where we have a genuine reason to do so. If we ever intend to start charging for the App or for a feature that is free today, we will tell you in advance and you will be free to stop using it.
+We may also change, add, or remove features, or change the way the App works, including its token model and pricing, where we have a genuine reason to do so. Any such change applies to future purchases only. Tokens you have already bought keep the terms that applied when you bought them, including their price and their twelve-month expiry, and we will honour those terms in full.
 
-We may suspend or permanently discontinue the App, in whole or in part, at our discretion. If we decide to permanently discontinue the App, we will give you reasonable advance notice where practicable, by in-app notification or by email, so that you have time to export your records before access ends. Except where the law requires otherwise, we will not otherwise be liable to you for changing, suspending, or discontinuing the App.
+We may suspend or permanently discontinue the App, in whole or in part, at our discretion. If we decide to permanently discontinue the App, we will give you reasonable advance notice where practicable, by in-app notification or by email, so that you have time to export your records before access ends. In that event, we will refund the unused balance of any tokens you have purchased, based on the price you paid for them. Promotional and bonus tokens have no cash value and are not refundable. Except where the law requires otherwise, we will not otherwise be liable to you for changing, suspending, or discontinuing the App.
 
 ## 10. Limitation of Liability
 
@@ -94,7 +104,7 @@ Learning Log is provided “as is” without warranties beyond those that cannot
 
 - Actions or omissions of third-party services integrated with the App.
 
-To the extent permitted by law, our total liability to you for all claims arising out of or in connection with these Terms or your use of the App, in any 12-month period, will not exceed one hundred pounds (£100). The App is provided free of charge, and this cap reflects that. Nothing in these Terms limits our liability for death or personal injury caused by our negligence, for fraud or fraudulent misrepresentation, or for any other liability that cannot be limited or excluded by law.
+To the extent permitted by law, our total liability to you for all claims arising out of or in connection with these Terms or your use of the App, in any 12-month period, will not exceed the total amount you paid us for tokens in that period.
 
 ## 11. Indemnity
 
