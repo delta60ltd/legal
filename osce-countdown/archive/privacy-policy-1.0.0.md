@@ -1,4 +1,4 @@
-Version 1.1.0. Effective date: 16 September 2026.
+Version 1.0.0. Effective date: 1 August 2026.
 
 OSCE Countdown is made by Delta 60 Ltd ("we", "us"). This policy explains
 what personal data we collect and use. It also describes how we protect your
@@ -26,10 +26,11 @@ other personal identifying information before you use our app.
 
 ### App data stored on your device
 
-Your presets, current configurations, settings, purchase entitlement cache
-and legal-document read markers are stored locally on your device. We do not
-upload these app settings to our servers and cannot see them. Deleting the
-app, or clearing its app storage, deletes them from your device.
+Your presets, current configurations, settings, ad-display state, purchase
+entitlement cache and legal-document read markers are stored locally on your
+device. We do not upload these app settings to our servers and cannot see
+them. Deleting the app, or clearing its app storage, deletes them from your
+device.
 
 ### Feedback you send from the app
 
@@ -66,11 +67,17 @@ your IP address, browser User-Agent header, TLS fingerprint and our site
 identifier. We pass your IP address to Cloudflare for the check but do not
 keep it in the website form message.
 
-### No adverts and no tracking
+### Adverts
 
-OSCE Countdown shows no adverts and does not track you. It contains no
-advertising software, requests no advertising identifier and asks for no
-tracking permission.
+The free version may show a Google AdMob interstitial advert when a practice
+session ends, including if you stopped it early. You can optionally decide to
+remove Ads by making a one-time in-app purchase.
+
+AdMob may collect device information, advertising identifiers and ad
+interaction data under Google's policies. In the UK and EEA, the app asks for
+your consent before requesting adverts; if you refuse, adverts are not
+personalised where Google permits non-personalised ads. On iOS, your App
+Tracking Transparency choice is respected.
 
 ### Purchases
 
@@ -100,6 +107,7 @@ We use the information described above to:
 
 Under UK GDPR, we rely on:
 
+- consent for personalised advertising;
 - contract where processing is needed to provide app purchases and restore
   entitlements;
 - legitimate interests for answering messages, operating support channels,
@@ -107,12 +115,14 @@ Under UK GDPR, we rely on:
 - legal obligation where we must keep or disclose information to comply with
   the law.
 
-You can object to processing based on legitimate interests.
+You can withdraw consent at any time. You can also object to processing based
+on legitimate interests.
 
 ## 5. Sharing and Processors
 
 We use service providers to run parts of the app and website:
 
+- Google AdMob for adverts;
 - Apple and Google for app-store purchases;
 - RevenueCat for purchase entitlement management;
 - Mailgun for email delivery;
@@ -133,7 +143,7 @@ UK extension to the EU-US Data Privacy Framework.
 ## 7. Your Rights
 
 You can ask us to see, correct or delete personal data we hold about you,
-or restrict or object to its use. Contact us at
+restrict or object to its use, or withdraw consent. Contact us at
 oscecountdown.app/contact or support@oscecountdown.app. We will respond
 within one month.
 

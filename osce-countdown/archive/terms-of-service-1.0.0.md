@@ -1,4 +1,4 @@
-Version 1.1.0. Effective date: 16 September 2026.
+Version 1.0.0. Effective date: 1 August 2026.
 
 These Terms of Service ("Terms") are a contract between you and Delta 60 Ltd
 ("we", "us", "our"), the maker and operator of OSCE Countdown ("the App").
@@ -37,9 +37,10 @@ and backup arrangements before you start.
 
 ## 3. Purchases
 
-OSCE Countdown offers one one-off purchase, Exam Circuit. It is processed by
-the App Store or Google Play under the store's own terms, stays with your
-store account, can be restored on a new device, and does not renew.
+OSCE Countdown offers two one-off purchases: Remove Ads and Exam Circuit. They
+are processed by the App Store or Google Play under the store's own terms,
+stay with your store account, can be restored on a new device, and do not
+renew.
 
 Refunds are handled by Apple or Google. Charges may appear on your statement
 as Google*DELTA60 for Google Play or APPLE.COM/BILL for the App Store. If you
